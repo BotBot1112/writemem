@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.ExploitTheLoop'
+version '1.0'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // Укажите зависимости вашего проекта здесь
+    // Например:
+    // implementation 'groupId:artifactId:version'
+}
+
+// Опционально: настройки для сборки исполняемого JAR-файла
+jar {
+    manifest {
+        attributes 'Main-Class': 'jayne.memoryutilsMain'
+    }
+}
